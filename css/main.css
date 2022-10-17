@@ -1,0 +1,196 @@
+header {
+  padding: 2rem;
+  background-color: grey;
+}
+
+.logo img {
+height: 6rem;
+}
+
+
+@media screen and (max-width: 39.9375em){
+  header .menu {
+    /* position menu on top, full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    /* position content in vertical center */
+    flex-direction: column;
+    justify-content: center;
+    /* add styling details */
+    padding: 2rem;
+    background-color: #212121;
+  }
+  header .menu li {
+    /* override Foundation class and align content on left */
+    justify-content: flex-start !important;
+    /* add styling details */
+    font-size: 2rem;
+  }
+  header .menu li a {
+    /* add styling details */
+    color: #ffffff;
+  }
+  header button {
+    cursor: pointer;
+  }
+  header button.show-for-small-only {
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+  header button.show-for-small-only.btnToggle {
+    color: #ffffff;
+  }
+}
+
+.menu p {
+  font-size: .5rem;
+}
+
+
+.menu a {
+  /* make it a circle */
+  border-radius: 50%;
+  /* size the circle */
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  /* set the text */
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  /* set the type color */
+  color: #fff;
+  /* override Foundation style */
+  padding: 0;
+}
+
+/* individual link colors */
+
+.menu li:nth-child(1) a {
+  background-color: red;
+}
+
+.menu li:nth-child(2) a {
+  background-color: green;
+}
+
+.menu li:nth-child(3) a {
+  background-color: gold;
+}
+
+.menu li:nth-child(4) a {
+  background-color: darkblue;
+}
+
+.menu li:nth-child(5) a {
+  background-color: blue;
+}
+
+.menu li:nth-child(6) a {
+  background-color: purple;
+}
+
+/* add space between links */
+
+.menu li {
+  margin-right: 1rem;
+  padding-top: 1rem;
+}
+
+.hero img {
+width: 100%;
+}
+
+h1 {
+  color: white;
+  
+}
+
+h2 {
+  color: white;
+ 
+}
+
+h3 {
+  color: white;
+  
+}
+
+.Hlogo {
+  size: 50%;
+}
+
+.button {
+background-color: red;
+}
+
+.ourmission {
+background-color: black;
+color: white;
+padding-top: 2rem;
+}
+
+.support {
+background-color: black;
+padding-top: 2rem;
+}
+
+.collectionarchives {
+background-color: black;
+padding-top: 2rem;
+}
+
+.toursprograms {
+background-color: black;
+padding-top: 2rem;
+}
+
+.merch {
+background-color: black;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+.ourmission a:hover {
+  background-color: green;
+}
+
+.support a:hover {
+  background-color: gold;
+}
+
+.collectionarchives a:hover {
+  background-color: darkblue;
+}
+
+.toursprograms a:hover {
+  background-color: blue;
+}
+
+.merch a:hover {
+  background-color: purple;
+}
+
+footer {
+  background-color: grey;
+  padding: 4rem;
+}
+
+footer p {
+  padding-top: 2rem;
+}
+
+footer a {
+  padding: 2rem;
+  color: white;
+}
+
+footer img {
+  padding: 2rem;
+}
